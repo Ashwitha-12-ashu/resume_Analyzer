@@ -1,6 +1,2 @@
 streamlit
-PyPDF2==3.0.1
-pandas
-numpy
-nltk
-scikit-l
+pypdf
