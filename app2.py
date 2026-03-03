@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-import PyPDF2 # PDF text extraction
+from pypdf import PdfReader# PDF text extraction
 
 # Load job roles and core skills
 with open("job_roles.json", "r") as f:
