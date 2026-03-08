@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-from pypdf import PdfReader    # <-- FIXED import
+from PyPDF2 import PdfReader
 
 # Load job roles and core skills
 with open("job_roles.json", "r") as f:
